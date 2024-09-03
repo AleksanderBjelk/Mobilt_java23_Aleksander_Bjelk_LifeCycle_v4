@@ -16,24 +16,27 @@ class Menu : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
 
         val menuClick = findViewById<ImageButton>(R.id.menuButton)
-        menuClick.setOnClickListener{
+        val credentialsMenuClick = findViewById<Button>(R.id.formMenuButton)
+        val registerMenuClick = findViewById<Button>(R.id.registerMenuButton)
+        val logOutMenuClick = findViewById<Button>(R.id.logOutMenuButton)
+
+        //En meny med knappar för att byta till andra sidor
+
+        menuClick.setOnClickListener {
             finish()
         }
 
-        val credentialsMenuClick = findViewById<Button>(R.id.formMenuButton)
-        credentialsMenuClick.setOnClickListener{
+        credentialsMenuClick.setOnClickListener {
             val intent = Intent(this, Form::class.java)
             startActivity(intent)
         }
 
-        val registerMenuClick = findViewById<Button>(R.id.registerMenuButton)
-        registerMenuClick.setOnClickListener{
+        registerMenuClick.setOnClickListener {
             val intent = Intent(this, Register::class.java)
             startActivity(intent)
         }
 
-        val logOutMenuClick = findViewById<Button>(R.id.logOutMenuButton)
-        logOutMenuClick.setOnClickListener{
+        logOutMenuClick.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
