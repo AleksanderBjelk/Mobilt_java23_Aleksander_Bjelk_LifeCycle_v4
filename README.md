@@ -38,7 +38,7 @@ Start/log in page
 See the logged in user's credentials
 <br>
 <br>
-<img width="361" alt="Skärmavbild 2024-09-03 kl  18 39 34" src="https://github.com/user-attachments/assets/6a8b6708-871d-437e-91fb-0a079f9fd2eb">
+<img width="361" alt="Skärmavbild 2024-09-04 kl  16 22 34" src="https://github.com/user-attachments/assets/40251f25-aa31-4149-aaa7-01cca17e52fe">
 <br>
 <br>
 <br>
