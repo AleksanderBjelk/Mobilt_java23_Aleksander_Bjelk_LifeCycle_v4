@@ -49,6 +49,7 @@ class Form : AppCompatActivity() {
             val updatedUser = hashMapOf(
                 "firstName" to nameEditText.text.toString(),
                 "lastName" to lastNameEditText.text.toString(),
+                "email" to emailTextView.text.toString(),
                 "phone" to phoneEditText.text.toString()
             )
             saveUserCredentials(updatedUser)
